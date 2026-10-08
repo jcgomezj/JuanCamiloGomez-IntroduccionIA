@@ -1,0 +1,12 @@
+# Datos pesados de imágenes (se regeneran ejecutando el notebook de la Semana 8)
+Semana8-CNN-TransferLearning/data_raw/
+Semana8-CNN-TransferLearning/dataset/
+
+# Entornos y cachés de Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos descargados de Keras / sklearn
+*.tar.gz

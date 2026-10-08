@@ -1,0 +1,24 @@
+{
+  "target": "target",
+  "features": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "n_classes": 3,
+  "n_samples_total": 178,
+  "n_train": 142,
+  "n_test": 36
+}
