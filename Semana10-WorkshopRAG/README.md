@@ -1,6 +1,6 @@
 # Semana 10 — Workshop RAG (SI3003)
 
-**Autor:** Juan Camilo Gómez · **Usuario GitHub:** `jcgomezj` · **Código:** `[COMPLETAR tu código estudiantil]`
+**Autor:** Juan Camilo Gómez · **Usuario GitHub:** `jcgomezj` · **Código:** `1000306212`
 
 Workshop de *Retrieval-Augmented Generation* con LangChain, NVIDIA NIM y Qdrant.
 Material del profesor: `EAFIT-IA/si3003-artificial-intelligence` (notebooks de
@@ -38,29 +38,29 @@ Semana10-WorkshopRAG/
 | T3 | Inserción vs búsqueda | ✅ Completo | `RESPUESTAS.md` §T3 |
 | T4 | Invariante de FAISSVectorStore | ✅ Completo | `RESPUESTAS.md` §T4 |
 | T5 | Costo de la fuerza bruta | ✅ Completo | `RESPUESTAS.md` §T5 |
-| A1 | Ejecutar app RAG de punta a punta | ⏳ Ejecutar en Colab | `evidencias/A1_gradio.png` |
-| A2 | Corpus propio (AeroNimbus) | 🟡 Datos listos, falta ejecutar | `data/company_documents.json`, `evidencias/A2_corpus.png` |
-| A3 | Ingeniería del prompt | 🟡 Prompt modificado, falta medir | `RESPUESTAS.md` §A3 |
-| A4 | Score de similitud en fuentes | 🟡 Código listo, falta ejecutar | `evidencias/A4_scores.png` |
-| B1 | RAG de papers + ground truth | ⏳ Ejecutar en Colab | `RESPUESTAS.md` §B1 |
-| B2 | Experimentos chunk_size/k/threshold | 🟡 Funciones listas, falta correr | `RESPUESTAS.md` §B2 |
-| B3 | Preguntas trampa | 🟡 Preguntas listas, falta correr | `RESPUESTAS.md` §B3 |
-| B4 | Preguntas ES sobre papers EN | 🟡 Listo, falta correr | `RESPUESTAS.md` §B4 |
-| B5 | Quiz propio con ground truth | 🟡 Celdas añadidas, falta correr | notebook 03 |
-| R1 | Reflexión final | 🟡 Plantilla lista | `RESPUESTAS.md` §Reflexión |
+| A1 | Ejecutar app RAG de punta a punta | ✅ Completo | `evidencias/A1_gradio.png` |
+| A2 | Corpus propio (AeroNimbus) | ✅ Completo | `data/company_documents.json`, `evidencias/A2_corpus.png` |
+| A3 | Ingeniería del prompt | ✅ Completo | `RESPUESTAS.md` §A3 |
+| A4 | Score de similitud en fuentes | ✅ Completo | `evidencias/A4_scores.png` |
+| B1 | RAG de papers + ground truth | ✅ Completo | `RESPUESTAS.md` §B1 |
+| B2 | Experimentos chunk_size/k/threshold | ✅ Completo | `RESPUESTAS.md` §B2 |
+| B3 | Preguntas trampa | ✅ Completo | `RESPUESTAS.md` §B3 |
+| B4 | Preguntas ES sobre papers EN | ✅ Completo | `RESPUESTAS.md` §B4 |
+| B5 | Quiz propio con ground truth | ✅ Completo | `RESPUESTAS.md` §B5 |
+| R1 | Reflexión final | ✅ Completo | `RESPUESTAS.md` §Reflexión |
 
 ### Retos (tope 30 pts) — opcionales
 
 | Reto | Descripción | Estado |
 |---|---|---|
-| C4 | Evaluación automática de recuperación | 🟡 CSV + función listos |
-| C6 | Persistencia del índice en disco | 🟡 Código listo |
-| C5 | MMR vs similitud pura | 🟡 Código listo |
-| C1 | HNSW vs fuerza bruta (FAISS) | 🟡 Código de arranque listo |
+| C4 | Evaluación automática de recuperación | ✅ Completo (`RESPUESTAS.md` §C4) |
+| C1 | HNSW vs fuerza bruta (FAISS) | ✅ Completo (`evidencias/C1_hnsw_benchmark.png`) |
+| C6 | Persistencia del índice en disco | 🟡 Código listo en notebook 04 |
+| C5 | MMR vs similitud pura | 🟡 Código listo en notebook 04 |
 | C3 | App Gradio para papers con filtro | ⬜ Opcional |
 | C2 | Tercer paper (HNSW) | ⬜ Opcional |
 
-**Leyenda:** ✅ listo · 🟡 preparado, falta ejecutar/capturar en Colab · ⏳ requiere Colab · ⬜ no iniciado
+**Leyenda:** ✅ listo · 🟡 preparado · ⬜ no iniciado
 
 ## Cómo ejecutar en local (VS Code / Antigravity)
 
