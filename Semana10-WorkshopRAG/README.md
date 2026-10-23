@@ -62,6 +62,19 @@ Semana10-WorkshopRAG/
 
 **Leyenda:** ✅ listo · 🟡 preparado, falta ejecutar/capturar en Colab · ⏳ requiere Colab · ⬜ no iniciado
 
+## Cómo ejecutar en local (VS Code / Antigravity)
+
+Ver **[`SETUP_LOCAL.md`](SETUP_LOCAL.md)** para la guía completa. Resumen:
+
+```bash
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+cp .env.example .env          # y pega tu NVIDIA_API_KEY dentro
+```
+
+Luego abre los notebooks de `notebooks/`, selecciona el kernel `.venv` y ejecuta
+en orden: 02b → 03 → 04.
+
 ## Cómo ejecutar (en Google Colab)
 
 1. Sube cada notebook de `notebooks/` a Colab.

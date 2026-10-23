@@ -1,0 +1,29 @@
+# Workshop RAG SI3003 — dependencias para ejecución local (VS Code / Antigravity)
+# Python 3.11 o 3.12 recomendado.
+
+# Núcleo RAG
+langchain
+langchain-core
+langchain-text-splitters
+langchain-nvidia-ai-endpoints
+langchain-qdrant
+qdrant-client
+
+# App e interfaz (notebook 02b)
+gradio
+
+# Conversión de PDFs (notebook 03)
+markitdown[pdf]
+requests
+
+# Retos (notebook 04): C1 usa FAISS y matplotlib
+faiss-cpu
+matplotlib
+numpy
+
+# Utilidades
+python-dotenv
+
+# Para ejecutar notebooks en VS Code / Antigravity
+ipykernel
+jupyter
