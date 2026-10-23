@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ventas_001",
+    "title": "Planes y precios de AeroNimbus",
+    "content": "AeroNimbus ofrece tres planes de su plataforma de monitoreo de drones. El plan Starter cuesta $29/mes por dron e incluye telemetría básica. El plan Fleet cuesta $79/mes por dron con compromiso anual e incluye rutas automáticas y alertas. El plan Enterprise es a la medida, parte de $199/mes por dron e incluye SLA de disponibilidad del 99.9% y soporte dedicado.",
+    "metadata": {"department": "ventas", "type": "pricing"}
+  },
+  {
+    "id": "ventas_002",
+    "title": "Política de descuentos comerciales",
+    "content": "Los descuentos de hasta 10% los puede aprobar cualquier ejecutivo de ventas. Los descuentos entre 11% y 20% requieren aprobación del gerente comercial. Cualquier descuento superior al 20% debe ser aprobado por la dirección general y documentado en el CRM antes de enviar la cotización al cliente.",
+    "metadata": {"department": "ventas", "type": "policy"}
+  },
+  {
+    "id": "soporte_001",
+    "title": "Niveles de soporte y tiempos de respuesta",
+    "content": "El soporte estándar responde en un máximo de 24 horas hábiles. El soporte prioritario, incluido en el plan Enterprise, responde incidentes críticos en menos de 1 hora, los 7 días de la semana. Un incidente se considera crítico cuando un dron pierde conexión durante un vuelo activo o cuando la plataforma de monitoreo deja de estar disponible.",
+    "metadata": {"department": "soporte", "type": "policy"}
+  },
+  {
+    "id": "soporte_002",
+    "title": "Procedimiento de reporte de fallas",
+    "content": "Para reportar una falla, el cliente debe abrir un ticket desde el panel web indicando el identificador del dron, la hora del incidente y una descripción. El sistema asigna automáticamente una prioridad. Los tickets de prioridad crítica escalan de inmediato al ingeniero de guardia. El cliente recibe actualizaciones cada 2 horas hasta la resolución.",
+    "metadata": {"department": "soporte", "type": "procedure"}
+  },
+  {
+    "id": "rrhh_001",
+    "title": "Política de trabajo remoto",
+    "content": "Los empleados de AeroNimbus pueden trabajar de forma remota hasta 3 días por semana con aprobación de su líder directo. Los roles de operación de campo y mantenimiento de hardware son presenciales por la naturaleza del trabajo. Las reuniones de equipo se programan preferentemente los martes, cuando todo el personal asiste a la oficina.",
+    "metadata": {"department": "rrhh", "type": "policy"}
+  },
+  {
+    "id": "rrhh_002",
+    "title": "Proceso de onboarding de nuevos empleados",
+    "content": "Durante la primera semana, cada nuevo empleado completa módulos obligatorios de seguridad aeronáutica, protección de datos de clientes y cultura de la empresa. En la segunda semana se le asigna un mentor y accede a los repositorios de código y a la documentación interna. El onboarding se considera completo cuando el empleado entrega su primer aporte revisado.",
+    "metadata": {"department": "rrhh", "type": "procedure"}
+  },
+  {
+    "id": "finanzas_001",
+    "title": "Política de reembolsos a clientes",
+    "content": "Un cliente puede solicitar reembolso dentro de los primeros 30 días de contratado un plan. Los reembolsos menores a $500 los aprueba el analista financiero. Los reembolsos iguales o mayores a $500 requieren aprobación del director financiero. Una vez aprobado, el reembolso se procesa en 5 a 7 días hábiles al método de pago original.",
+    "metadata": {"department": "finanzas", "type": "policy"}
+  },
+  {
+    "id": "finanzas_002",
+    "title": "Política de gastos y viáticos",
+    "content": "Los gastos de viaje para operaciones de campo se reembolsan contra factura. El tope diario de alimentación es $40 y el de alojamiento es $120. Los gastos que superen estos topes requieren justificación escrita y aprobación previa del líder del área. Las facturas deben subirse al sistema en un plazo máximo de 10 días después del viaje.",
+    "metadata": {"department": "finanzas", "type": "policy"}
+  },
+  {
+    "id": "producto_001",
+    "title": "Especificaciones de la plataforma de monitoreo",
+    "content": "La plataforma de AeroNimbus soporta monitoreo simultáneo de hasta 50 drones por cuenta en el plan Fleet y sin límite práctico en Enterprise. La telemetría se actualiza cada 2 segundos. Los datos de vuelo se conservan durante 90 días en los planes Starter y Fleet, y hasta 2 años en Enterprise.",
+    "metadata": {"department": "producto", "type": "spec"}
+  },
+  {
+    "id": "producto_002",
+    "title": "Integraciones y API disponibles",
+    "content": "AeroNimbus expone una API REST documentada que permite consultar telemetría, descargar reportes y configurar alertas. La API está disponible en los planes Fleet y Enterprise. El plan Starter no incluye acceso a la API. Las credenciales de la API se generan desde el panel de administración y pueden revocarse en cualquier momento.",
+    "metadata": {"department": "producto", "type": "spec"}
+  }
+]
