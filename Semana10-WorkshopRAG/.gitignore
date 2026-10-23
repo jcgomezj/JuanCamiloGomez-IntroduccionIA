@@ -1,0 +1,13 @@
+# Índice persistente de Qdrant (reto C6) — se regenera al ejecutar
+qdrant_data/
+
+# PDFs descargados por el notebook 03 (se bajan de arXiv al ejecutar)
+papers/
+*.pdf
+
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env

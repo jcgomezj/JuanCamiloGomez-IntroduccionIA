@@ -1,0 +1,11 @@
+pregunta,fuente_esperada,palabra_clave
+What BLEU score did the Transformer big model achieve on WMT 2014 English-to-German?,attention_paper.pdf,28.4
+How many attention heads does the base Transformer model use?,attention_paper.pdf,8
+What is the dimension of the model (d_model) in the base Transformer?,attention_paper.pdf,512
+What scaling factor is used in Scaled Dot-Product Attention?,attention_paper.pdf,sqrt
+What positional information mechanism does the Transformer use?,attention_paper.pdf,positional
+What two types of memory does RAG combine?,rag_paper.pdf,parametric
+Which retriever does the RAG paper use to fetch documents?,rag_paper.pdf,DPR
+What are the two RAG model variants proposed in the paper?,rag_paper.pdf,RAG-Token
+Which pre-trained seq2seq model does RAG use as its generator?,rag_paper.pdf,BART
+What knowledge source does RAG use as its non-parametric memory?,rag_paper.pdf,Wikipedia
